@@ -1,6 +1,6 @@
 
 //  FCB -Simple Javascript Program
-// Student ID -6194
+
 // W.D.Vihari Gunarathna 
 
 function appendValue(value) {
