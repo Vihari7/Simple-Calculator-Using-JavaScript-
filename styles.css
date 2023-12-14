@@ -1,0 +1,64 @@
+ /* FCB -Simple Javascript Program
+Student ID -6194
+W.D.Vihari Gunarathna  */
+
+*{
+    margin: 0;
+    padding:0;
+    font-family:"Poppins", sans-serif;
+    box-sizing: border-box;
+} 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ecd2dc;
+
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 20px 20px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 5px 10px #5e275b;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.5em;
+    height: 80px;
+    border: rgb(138, 72, 168);
+    text-align: right;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 25px;
+    color: rgb(55, 27, 68);
+    pointer-events: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(250, 236, 244);
+    cursor: pointer;
+}
+
+.operator{
+    color: rgb(162, 41, 173);
+} 
